@@ -10,7 +10,7 @@
 
 // WARNING! WARNING!  This is designed to be used as a MODELESS dialog.
 //
-
+#include "pch.h"
 #include "stdafx.h"
 #include "AreaEditor.h"
 #include "AreaLoadingProblems.h"
