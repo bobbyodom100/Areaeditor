@@ -7,7 +7,7 @@
 
 // AreaEditorDoc.cpp : implementation of the CAreaEditorDoc class
 //
-
+#include "pch.h"
 #include "stdafx.h"
 #include "AreaEditor.h"
 #include "MainFrm.h"
