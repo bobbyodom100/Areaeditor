@@ -4,7 +4,7 @@
 ** http://www.gammon.com.au/
 ** See Copyright Notice at the end of AreaEditor.h
 */
-#include "pch.h"
+
 #if !defined(AFX_ADDEXITDLG_H__68A3F686_4F56_11D2_AFA1_00A0247B3BFD__INCLUDED_)
 #define AFX_ADDEXITDLG_H__68A3F686_4F56_11D2_AFA1_00A0247B3BFD__INCLUDED_
 
