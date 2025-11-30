@@ -7,6 +7,7 @@
 
 // Exceptions.cpp - our special exception classes
 //
+#include "pch.h"
 
 #include "stdafx.h"
 #include "exceptions.h"

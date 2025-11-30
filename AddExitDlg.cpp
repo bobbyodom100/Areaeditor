@@ -7,6 +7,7 @@
 
 // AddExitDlg.cpp : implementation file
 //
+
 #include "pch.h"
 #include "stdafx.h"
 #include "AreaEditor.h"
@@ -52,8 +53,8 @@ void CAddExitDlg::DoDataExchange(CDataExchange* pDX)
     int i;
     if (!UnloadComboBox (m_ctlDirection, i))
         {
-        ::AfxMessageBox ("Please choose an exit direction before proceeding",
-                          MB_ICONSTOP);
+        ::AfxMessageBox(_T("Please choose an exit direction before proceeding",
+                          MB_ICONSTOP));
       	DDX_Control(pDX, IDC_DIRECTION, m_ctlDirection);
         pDX->Fail();
         }   // end of no direction chosen

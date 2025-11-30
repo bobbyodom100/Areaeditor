@@ -7,6 +7,7 @@
 
 // ChildFrm.cpp : implementation of the CChildFrame class
 //
+#include "pch.h"
 
 #include "stdafx.h"
 #include "AreaEditor.h"

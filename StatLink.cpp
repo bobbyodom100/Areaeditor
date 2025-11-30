@@ -7,6 +7,8 @@
 // to any file on your desktop or web. You can use it in dialog boxes
 // to create hyperlinks to web sites. When clicked, opens the file/URL
 //
+#include "pch.h"
+
 #include "StdAfx.h"
 #include "StatLink.h"
 

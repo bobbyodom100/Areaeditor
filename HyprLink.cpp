@@ -3,6 +3,8 @@
 // If this code works, it was written by Paul DiLascia.
 // If not, I don't know who wrote it.
 //
+#include "pch.h"
+
 #include "StdAfx.h"
 #include "HyprLink.h"
 

@@ -7,6 +7,7 @@
 
 // Format.cpp - format CStrings on-the-fly
 //
+#include "pch.h"
 
 #include "stdafx.h"
 #include "format.h"

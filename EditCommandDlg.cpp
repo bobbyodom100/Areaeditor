@@ -7,6 +7,7 @@
 
 // EditCommandDlg.cpp : implementation file
 //
+#include "pch.h"
 
 #include "stdafx.h"
 #include "AreaEditor.h"

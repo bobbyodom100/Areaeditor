@@ -4,6 +4,7 @@
 ** http://www.gammon.com.au/
 ** See Copyright Notice at the end of AreaEditor.h
 */
+#include "pch.h"
 
 #include "stdafx.h"
 #include "AreaEditor.h"

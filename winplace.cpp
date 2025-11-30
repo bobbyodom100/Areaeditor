@@ -2,6 +2,8 @@
 // CWindowPlacement 1996 Microsoft Systems Journal.
 // If this code works, it was written by Paul DiLascia.
 // If not, I don't know who wrote it.
+#include "pch.h"
+
 #include "stdafx.h"
 #include "AreaEditor.h"
 #include "mainfrm.h"

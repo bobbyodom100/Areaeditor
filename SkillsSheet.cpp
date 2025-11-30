@@ -7,6 +7,7 @@
 
 // SkillsSheet.cpp : implementation file
 //
+#include "pch.h"
 
 #include "stdafx.h"
 #include "resource.h"

@@ -7,6 +7,7 @@
 
 
 // genprint.cpp - generalised printing
+#include "pch.h"
 
 #include "stdafx.h"
 #include <afxext.h>

@@ -8,6 +8,8 @@
 
 // MainFrm.cpp : implementation of the CMainFrame class
 //
+#include "pch.h"
+
 #include <winuser.h>
 
 #include "stdafx.h"

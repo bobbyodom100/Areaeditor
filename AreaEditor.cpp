@@ -8,6 +8,7 @@
 // AreaEditor.cpp : Defines the class behaviors for the application.
 //
 #include "pch.h"
+
 #include "stdafx.h"
 #include "AreaEditor.h"
 #include <Delayimp.h>   // For error handling & advanced features
@@ -606,7 +607,7 @@ LONG WINAPI DelayLoadDllExceptionFilter(PEXCEPTION_POINTERS pep) {
                    "Please ensure it is in your path.", pdli->szDll); 
       break;
    case VcppException(ERROR_SEVERITY_ERROR, ERROR_PROC_NOT_FOUND):
-      // The DLL module was found but it doesnÂ’t contain the function
+      // The DLL module was found but it doesn’t contain the function
       if (pdli->dlp.fImportByName) {
          wsprintf(sz, "Function %s was not found in %s",
             pdli->dlp.szProcName, pdli->szDll);
@@ -616,7 +617,7 @@ LONG WINAPI DelayLoadDllExceptionFilter(PEXCEPTION_POINTERS pep) {
       }
       break; 
    default:
-      lDisposition = EXCEPTION_CONTINUE_SEARCH;  // We donÂ’t recognize this                                                     // exception
+      lDisposition = EXCEPTION_CONTINUE_SEARCH;  // We don’t recognize this                                                     // exception
       break;
    }
    if (lDisposition == EXCEPTION_EXECUTE_HANDLER) {

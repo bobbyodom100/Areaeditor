@@ -7,6 +7,7 @@
 
 //  ProgDlg.cpp : implementation file
 // CG: This file was added by the Progress Dialog component
+#include "pch.h"
 
 #include "stdafx.h"
 #include "resource.h"
